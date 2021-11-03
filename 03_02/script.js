@@ -20,3 +20,4 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
 };
+

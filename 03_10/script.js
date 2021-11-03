@@ -16,3 +16,17 @@ const everydayPack = new Backpack(
 
 console.log("The everydayPack object:", everydayPack);
 console.log("The pocketNum value:", everydayPack.pocketNum);
+
+
+const everyDayPack = new Backpack(
+  "Sunday Backpack",
+  65,
+  "orange",
+  57,
+  40,
+  40,
+  true
+);
+
+console.log("The new pack ", everyDayPack);
+console.log("The new pack is open", everyDayPack.lidOpen);

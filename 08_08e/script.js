@@ -28,4 +28,4 @@ const tipCalculator = (sum, percentage, locale, currency) => {
   `);
 };
 
-tipCalculator(29.95, 18, "de-DE", "EUR");
+tipCalculator(29.95, 18);

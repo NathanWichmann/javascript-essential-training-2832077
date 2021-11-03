@@ -4,7 +4,6 @@
  */
 
 const stuff = ["piggy", "headlamp", "pen", "pencil", "eraser", "water bottle"];
-
 const article = document.querySelector("article");
 let stuffList = document.createElement("ul");
 
@@ -13,7 +12,10 @@ const stuffItems = stuff.map((item) => {
   let listItem = document.createElement("li");
   listItem.innerHTML = item;
   return listItem;
+
 });
+console.log("stuff:", stuff)
+console.log(stuffList)
 
 // Append each element from the stuffItems array to the stuffList <ul>
 stuffItems.forEach((item) => {
